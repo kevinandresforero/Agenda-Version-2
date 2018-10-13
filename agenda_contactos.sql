@@ -25,7 +25,7 @@ insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_d
 'trans 23 # 45 -7');
 
 insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_domicilio`,
-`con_Ielefono_oficina`, `con_celular`, `con_correo`, `con_direccion_residencia`,`con_direccion_trabajo`) values 
+`con_telefono_oficina`, `con_celular`, `con_correo`, `con_direccion_residencia`,`con_direccion_trabajo`) values 
 (2, 
 'Nicolas', 
 'Gutierrez Morales', 
@@ -48,14 +48,6 @@ insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_d
 'nikolazbort@hotmail.com',
 'cra 123 # 12 45',
 'Cra 145 # 34  123');
-
-
-
-
-
-
-
-
 
 
 insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_domicilio`,
@@ -97,10 +89,6 @@ insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_d
 'cmyarap@correo.udistrital.edu.co',
 'Calle 89 # 132 45',
 'Cra 98 # 45 123');
-
-
-
-
 
 
 
@@ -235,13 +223,6 @@ insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_d
 
 
 
-
-
-
-
-
-
-
 insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_domicilio`,
 `con_telefono_oficina`, `con_celular`, `con_correo`, `con_direccion_residencia`,`con_direccion_trabajo`) values 
 (16, 
@@ -280,4 +261,3 @@ insert into `contactos` (`con_id`, `con_nombre`, `con_apellido`, `con_telefono_d
 'manuel.bojaca@outlook.com',
 'Carrera 124 # 123   68',
 'Cra 122  # 89   53');
-
