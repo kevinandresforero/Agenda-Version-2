@@ -30,7 +30,7 @@ CREATE TABLE `seleccionados` (
   `con_cita_agenda` varchar(15) NOT NULL COMMENT 'Fecha de la cita',
   `con_dirección` varchar(20) NOT NULL COMMENT 'Dirección de la cita',
   `con_hora` varchar(150) NOT NULL COMMENT 'Hora de la cita',
-  P|RIMARY KEY (`con_id`)
+  PRIMARY KEY (`con_id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci COMMENT='tabla con los nombres de conocidos';
 /*!40101 SET character_set_client = @saved_cs_client */;
 

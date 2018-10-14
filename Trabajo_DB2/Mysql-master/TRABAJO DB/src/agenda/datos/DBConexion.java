@@ -18,11 +18,11 @@ public class DBConexion {
                if (conexion!=null){
                   System.out.println("Conexión a base de datos "+bd+" OK");
                    }
-                 }catch(SQLException e){
-                  System.out.println(e);
-                 }catch(ClassNotFoundException e){
-                 System.out.println(e);
-                 }
+            }catch(SQLException e){
+                System.out.println(e);
+                }catch(ClassNotFoundException e){
+                    System.out.println(e);
+                }
     }
     
     public Connection getConexion()

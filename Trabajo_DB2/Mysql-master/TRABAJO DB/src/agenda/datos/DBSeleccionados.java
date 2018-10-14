@@ -37,7 +37,7 @@ public class DBSeleccionados {
                     + " con_telefono, "
                     + " con_cita_agenda,"
                     + " con_dirección, "
-                    + " con_hora, "
+                    + " con_hora "
                     + " FROM seleccionados "
                     + " ORDER BY con_nombre, con_apellido");
 

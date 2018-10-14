@@ -16,7 +16,7 @@ public class DBConexion2 {
     static String bd2 = "citas";
     static String login = "root";
     static String password = "261120";
-    static String url = "jdbc:mysql://localhost/" +bd2;
+    static String url = "jdbc:mysql://localhost/"+bd2;
 
     Connection conexion2 = null;
 

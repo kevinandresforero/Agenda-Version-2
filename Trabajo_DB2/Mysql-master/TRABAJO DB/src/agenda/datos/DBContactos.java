@@ -59,16 +59,16 @@ public class DBContactos {
         return data;
     }
 
-    public int insertarContacto(Contacto c) {
+    public int actualizarContacto(Contacto c) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    public int actualizarContacto(Contacto c) {
+    public int insertarContacto(Contacto c) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     public int borrarContacto(Contacto c) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
 }
